@@ -1,0 +1,19 @@
+*{margin: 0; padding: 10%;
+box-sizing:  border-box;}
+
+body{ 
+    width: 75%;  margin: 50px; auto;
+    border: 1px solid grey;
+    display: grid;
+    grid-template-rows: 100px 60px 60px 60px 1fr ;
+    grid-template-columns: repeat(2, 1fr) 100px;
+}
+.div1{ background-color:red;
+grid-row: 1/ span 2;}
+.div2{ background-color:yellow;}
+.div3{ background-color:rgb(245, 0, 41);}
+.div4{ background-color:rgb(25, 139, 25);}
+.div5{ background-color:rgb(255, 185, 8);}
+.div6{ background-color:rgb(5, 166, 230);}
+.div7{ background-color:purple;}
+.div8{ background-color:wheat;}
